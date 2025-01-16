@@ -30,15 +30,15 @@ const Footerr = () => {
                             </li>
                             <li className='mt-2 d-flex align-items-center'>
                                 <i className="fa-solid fa-envelope pt-1 pe-2"></i>
-                                <a href="">Agehad248@gmail.com</a>
+                                <a href="Agehad248@gmail.com">Agehad248@gmail.com</a>
                             </li>
                             <li className='mt-2 d-flex align-items-center'>
                                 <i className="fa-brands fa-linkedin pt-1 pe-2"></i>
-                                <a href="">linkedin.com/in/ahmedgehad1</a>
+                                <a href="linkedin.com/in/ahmedgehad1">linkedin.com/in/ahmedgehad1</a>
                             </li>
                             <li className='mt-2 d-flex align-items-center'>
                                 <i class="fa-brands fa-github pt-1 pe-2"></i>
-                                <a href="">github.com/Ahmed-Gehad</a>
+                                <a href="github.com/Ahmed-Gehad">github.com/Ahmed-Gehad</a>
                             </li>
 
                         </ul>

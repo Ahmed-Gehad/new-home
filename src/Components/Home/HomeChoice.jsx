@@ -1,11 +1,8 @@
 import React from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 
 // for slid 
 import Carousel from 'react-bootstrap/Carousel';
-
-// import react awesome
-import { Zoom } from 'react-awesome-reveal';
 
 //import imgs
 import h1P1 from "../../imges/home-h-1-1.jpg";

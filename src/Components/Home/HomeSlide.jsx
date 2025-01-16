@@ -10,12 +10,9 @@ import Slider3 from "../../imges/home-img-3.jpg";
 
 
 
-import { ButtonGroup, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
-//Button
-import Button from 'react-bootstrap/Button';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Dropdown from 'react-bootstrap/Dropdown';
+
 
 const HomeSlide = () => {
     return (

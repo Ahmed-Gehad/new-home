@@ -302,6 +302,7 @@ Form {
     padding-top: 10px;
     transform: scale(1.1);
 }
+
 /* End Brand Home */
 
 /* Start Blog Home */
@@ -319,4 +320,44 @@ Form {
     color: #f04e13;
     font-weight: bold;
 }
+
 /* End Blog Home */
+
+
+/* START ABOUT HOME  */
+
+.about-home {
+    background-image: url(imges/discover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    padding-top: 150px !important;
+    filter: brightness(0.7);
+    transition: all 0.7s ease-in-out;
+}
+
+.about-home:hover {
+    scale: 1.1;
+    filter: brightness(1);}
+
+.about-home h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-home .line {
+    margin: 30px auto;
+}
+/* End ABOUT HOME  */
+
+
+.VisionHome img{
+    filter: blur(1px);
+    transition: all 0.5s ease-in-out;
+}
+.VisionHome img:hover{
+    filter: blur(0);
+    scale: 1.1;
+}
