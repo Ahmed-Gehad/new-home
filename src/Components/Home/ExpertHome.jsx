@@ -24,7 +24,7 @@ const ExpertHome = () => {
                 <Row>
                     <Col lg={6} md={12} sm={12}>
                         <div className="item mt-5 d-flex justify-content-around align-items-center">
-                            <i class="fa-solid fa-house-laptop fs-1 text-orange "></i>
+                            <i class="fa-solid fa-house-laptop fs-1 text-orange px-4 "></i>
                             <div>
                                 <h3 className='fw-bold'>Find inspiration</h3>
                                 <p className='lead'>Sumo petentium ut per, at his wisim utinam adipis
@@ -33,7 +33,7 @@ const ExpertHome = () => {
                             </div>
                         </div>
                         <div className="item mt-5 d-flex justify-content-around align-items-center">
-                            <i class="fa-solid fa-house-laptop fs-1 text-orange "></i>
+                            <i class="fa-solid fa-house-laptop fs-1 text-orange px-4"></i>
                             <div>
                                 <h3 className='fw-bold'>Find architect/designer</h3>
                                 <p className='lead'>Sumo petentium ut per, at his wisim utinam adipis
@@ -42,7 +42,7 @@ const ExpertHome = () => {
                             </div>
                         </div>
                         <div className="item mt-5 d-flex justify-content-around align-items-center mb-3">
-                            <i class="fa-solid fa-paint-roller fs-1 text-orange"></i>
+                            <i class="fa-solid fa-paint-roller fs-1 text-orange px-4"></i>
                             <div>
                                 <h3 className='fw-bold'>Begin renovation</h3>
                                 <p className='lead'>Sumo petentium ut per, at his wisim utinam adipis

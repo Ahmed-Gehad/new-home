@@ -24,27 +24,11 @@ const HomeSlide = () => {
                 <Carousel fade >
 
                     <Carousel.Item className='head'>
-                        <img src={imgSlider1} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '603px'  }} />
+                        <img src={imgSlider1} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '70vh'  }} />
                         <Carousel.Caption className='slider-text '>
-                            <h1 className='d-flex align-items-center m-0'>Buy or rent properties
+                            <h1 className='mb-5'>Buy or rent properties
                                 with no commission</h1>
-                            <ButtonGroup className='btn-group p-4' style={{ marginTop: '30px' }}>
-                                <DropdownButton as={ButtonGroup} title="Category" id="bg-nested-dropdown" >
-                                    <Dropdown.Item eventKey="1">Apartments</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Condos</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Apartments</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Condos</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Houses</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Villas</Dropdown.Item>
-                                </DropdownButton>
-                                <DropdownButton as={ButtonGroup} title="Location" id="bg-nested-dropdown" className='mx-3' >
-                                    <Dropdown.Item eventKey="1">Brooklyn</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Manhattan</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Queens</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Staten Island</Dropdown.Item>
-                                </DropdownButton>
-                                <Button className='btn-search'><i class="fa-solid fa-magnifying-glass p-1"></i>Search property</Button>
-                            </ButtonGroup>
+                           
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -52,11 +36,11 @@ const HomeSlide = () => {
 
                     
                     <Carousel.Item className='head'>
-                        <img src={imgSlider2} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '603px'  }}  />
+                        <img src={imgSlider2} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '70vh'  }}  />
                          <Carousel.Caption className='slider-text '>
-                            <h1 className='d-flex align-items-center m-0'>Buy or rent properties
+                            <h1 className='mb-5'>Buy or rent properties
                                 with no commission</h1>
-                            <ButtonGroup className='btn-group p-4' style={{marginTop: '30px'}}>
+                            {/* <ButtonGroup className='btn-group p-4' style={{marginTop: '30px'}}>
                                 <DropdownButton as={ButtonGroup} title="Category" id="bg-nested-dropdown" >
                                     <Dropdown.Item eventKey="1">Apartments</Dropdown.Item>
                                     <Dropdown.Item eventKey="2">Condos</Dropdown.Item>
@@ -72,7 +56,7 @@ const HomeSlide = () => {
                                     <Dropdown.Item eventKey="2">Staten Island</Dropdown.Item>
                                 </DropdownButton>
                                 <Button className='btn-search'><i class="fa-solid fa-magnifying-glass p-1"></i>Search property</Button>
-                            </ButtonGroup>
+                            </ButtonGroup> */}
                           
                         </Carousel.Caption>
                     </Carousel.Item >
@@ -80,28 +64,12 @@ const HomeSlide = () => {
 
                     <Carousel.Item className='head'>
 
-                        <img src={Slider3} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '603px'  }}  />
+                        <img src={Slider3} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '70vh'  }}  />
 
                          <Carousel.Caption className='slider-text '>
-                            <h1 className='d-flex align-items-center m-0'>Buy or rent properties
+                            <h1 className='mb-5'>Buy or rent properties
                                 with no commission</h1>
-                            <ButtonGroup className='btn-group p-4' style={{marginTop: '30px'}}>
-                                <DropdownButton as={ButtonGroup} title="Category" id="bg-nested-dropdown" >
-                                    <Dropdown.Item eventKey="1">Apartments</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Condos</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Apartments</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Condos</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Houses</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Villas</Dropdown.Item>
-                                </DropdownButton>
-                                <DropdownButton as={ButtonGroup} title="Location" id="bg-nested-dropdown" className='mx-3' >
-                                    <Dropdown.Item eventKey="1">Brooklyn</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Manhattan</Dropdown.Item>
-                                    <Dropdown.Item eventKey="1">Queens</Dropdown.Item>
-                                    <Dropdown.Item eventKey="2">Staten Island</Dropdown.Item>
-                                </DropdownButton>
-                                <Button className='btn-search'><i class="fa-solid fa-magnifying-glass p-1"></i>Search property</Button>
-                            </ButtonGroup>
+                            
                           
                         </Carousel.Caption>
                     </Carousel.Item>

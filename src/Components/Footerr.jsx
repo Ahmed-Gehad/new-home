@@ -10,7 +10,7 @@ const Footerr = () => {
 
             <Container>
                 <Row>
-                    <Col lg={3} sm={6} className='mb-5'>
+                    <Col lg={3} sm={6} className='mb-5 px-4'>
                         <img src={logo} alt='logo' className='logo ' style={{ width: '100px' }} />
                         <p className='lead pt-4'>A contemporary theme we designed specifically for real estate and property showcase websites, equipped with every option, element and feature your site may need.</p>
                         <a href="" style={{ marginTop: 20, marginBottom: 20 }}>Read more</a>
