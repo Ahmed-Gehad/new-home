@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage';
 import Footerr from './Components/Footerr';
 import { Route, Routes } from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/pages/AboutPage' element={<AboutPage />} />
-       
+        <Route path='/pages/ContactPage' element={<ContactPage />} />
+
       </Routes>
-      
+
       <Footerr />
     </div>
   );

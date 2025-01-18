@@ -289,7 +289,7 @@ Form {
 
 .BrandHome .logo-slide {
     white-space: nowrap;
-    animation: slide 15s linear infinite;
+    animation: slide 10s linear infinite;
     height: 250px;
 }
 
@@ -338,29 +338,104 @@ Form {
 
 .about-home:hover {
     scale: 1.1;
-    filter: brightness(1);}
+    filter: brightness(1);
+}
 
 .about-home h1 {
     color: hsl(0, 0%, 100%);
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    color: #f04e13;
 }
 
 .about-home .line {
     margin: 30px auto;
 }
+
 /* End ABOUT HOME  */
 
-
-.VisionHome img{
+/* Start Vision About  */
+.VisionAbout img {
     filter: blur(1px);
     transition: all 0.5s ease-in-out;
 }
-.VisionHome img:hover{
+
+.VisionAbout img:hover {
     filter: blur(0);
     scale: 1.1;
 }
 
+/* End Vision About  */
+/* Start Mission About  */
+
+.MissionAbout img {
+    filter: blur(1px);
+    transition: all 0.5s ease-in-out;
+}
+
+.MissionAbout img:hover {
+    filter: blur(0);
+    scale: 1.1;
+}
+
+/* End Mission About   */
+
+/* Start PremiumAbout  */
+ 
+.PremiumAbout{
+    background-image: url(imges/home-img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    filter: brightness(0.7);
+    transition: all 0.7s ease-in-out;
+}
 
 
+
+
+/* End PremiumAbout  */
+
+
+
+/* Start Home Contact */
+
+.home-contact {
+    background-image: url(imges/home-contact.webp);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    padding-top: 150px !important;
+    filter: brightness(0.7);
+    transition: all 0.7s ease-in-out;
+}
+
+.home-contact:hover {
+    scale: 1.1;
+    filter: brightness(1);
+}
+
+.home-contact h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #f04e13;
+}
+
+.home-contact .line {
+    margin: 30px auto;
+}
+
+/* End Home Contact */
+
+/* Start message contact  */
+.message form button{
+    transition: all 0.5s ease-in-out;
+}
+.message form button:hover{
+    background-color: transparent;
+    color: #f04e13 !important;
+    font-weight: bold;
+}
