@@ -51,15 +51,15 @@ const ExpertHome = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={6} md={12} sm={12}>
+                    <Col lg={6} md={12} sm={12} className='px-3'>
                         <div className='d-flex '>
                             <div  className="left-imge">
                             <img src={lImge} alt="lImge" className=' rounded-3 h-75 mt-5 h-75  'style={{width:"250px", marginRight:"20px"}} />
 
                             </div>
-                            <div className="right-imge ">
-                            <img src={rTopImge} alt="rTopImge" className='w-100 rounded-3 mt-3'  />
-                            <img src={rBottomImge} alt="rBottomImge" className='w-100 rounded-3 mt-3' />
+                            <div className="right-imge mt-5">
+                            <img src={rTopImge} alt="rTopImge" className='w-100 rounded-3 '  />
+                            <img src={rBottomImge} alt="rBottomImge" className='w-100 rounded-3 mt-5' />
 
                             </div>
                         </div>
