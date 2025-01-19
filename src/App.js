@@ -6,6 +6,7 @@ import Footerr from './Components/Footerr';
 import { Route, Routes } from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
 import ContactPage from './Pages/ContactPage';
+import PropertiePage from './Pages/PropertiePage';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/pages/AboutPage' element={<AboutPage />} />
         <Route path='/pages/ContactPage' element={<ContactPage />} />
-
+        <Route path='/pages/PropertiePage' element={<PropertiePage/>} />
       </Routes>
 
       <Footerr />

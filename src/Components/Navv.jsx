@@ -41,7 +41,7 @@ const Navv = () => {
                                     <Button >Contact</Button>
                                 </Link>
 
-                                <Link to='/Pages/PropertyPage'>
+                                <Link to='/Pages/PropertiePage'>
                                     <Button >Property</Button>
                                 </Link>
                                 <Link to='/Pages/FrequentlyPage'>

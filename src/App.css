@@ -129,19 +129,18 @@ ul {
 .detiles a:hover {
     color: #f16f40;
 }
-
-.HomeChoice .carousel-indicators {
+.HouesPropertie .carousel-indicators {
     margin-left: 0;
     margin-right: 0;
     left: 150px;
 }
 
-.HomeChoice .full-item {
-    filter: brightness(0.5);
+.HouesPropertie .full-item {
+    filter: brightness(0.8);
     transition: all 0.8s ease-in-out;
 }
 
-.HomeChoice .full-item:hover {
+.HouesPropertie .full-item:hover {
     filter: brightness(1);
     scale: 1.2;
 }
@@ -207,6 +206,8 @@ ul {
     background-image: url(./imges/discover.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .HomeDiscover h1 {
@@ -330,6 +331,8 @@ Form {
     background-image: url(imges/discover.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+
     height: 65vh;
     padding-top: 150px !important;
     filter: brightness(0.7);
@@ -387,6 +390,7 @@ Form {
     background-image: url(imges/home-img-2.jpg);
     background-position: center;
     background-size: cover;
+    
     height: 85vh;
     filter: brightness(0.7);
     transition: all 0.7s ease-in-out;
@@ -405,6 +409,8 @@ Form {
     background-image: url(imges/home-contact.webp);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
+
     height: 65vh;
     padding-top: 150px !important;
     filter: brightness(0.7);
@@ -439,3 +445,40 @@ Form {
     color: #f04e13 !important;
     font-weight: bold;
 }
+
+
+/* Start Propertie Home */
+.HomePropertie {
+    background-image: url(imges/MissionImg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
+    padding-top: 140px !important;
+    filter: brightness(0.7);
+    transition: all 0.7s ease-in-out;
+}
+
+.HomePropertie:hover {
+    scale: 1.1;
+    filter: brightness(1);
+}
+
+.HomePropertie h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #f04e13;
+}
+
+.HomePropertie .line {
+    margin: 30px auto;
+}
+
+
+/* End Propertie Home */
+
+
+
+
