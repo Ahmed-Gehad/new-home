@@ -1,8 +1,12 @@
 import React from 'react'
+import AdPerson from './AdPerson'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <div>
+      <AdPerson />
+     
+    </div>
   )
 }
 

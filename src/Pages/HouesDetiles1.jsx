@@ -14,6 +14,10 @@ import Title from '../Components/HouesDetiles/Title'
 import Landing from '../Components/HouesDetiles/Landing'
 import FeaturesTitle from '../Components/HouesDetiles/FeaturesTitle'
 import DetailsFeatures from '../Components/HouesDetiles/DetailsFeatures'
+import UtilityFeatures from '../Components/HouesDetiles/UtilityFeatures'
+import OutdoorFeatures from '../Components/HouesDetiles/OutdoorFeatures'
+import Location from '../Components/HouesDetiles/Location'
+import Nearby from '../Components/HouesDetiles/Nearby'
 
 
 
@@ -44,6 +48,10 @@ const HouesDetiles1 = () => {
                 <Description />
                 <FeaturesTitle />
                 <DetailsFeatures />
+                <UtilityFeatures />
+                <OutdoorFeatures />
+                <Location />
+                <Nearby />
             </Col>
             <Col lg={3}>
               <Sidebar />
