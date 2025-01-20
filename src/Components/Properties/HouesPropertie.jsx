@@ -3,35 +3,35 @@ import React from 'react'
 // for slid 
 import Carousel from 'react-bootstrap/Carousel';
 
-//import imgs
-import h1P1 from "../../imges/home-h-1-1.jpg";
-import h1P2 from "../../imges/home-h-1-2.jpg";
-import h1P3 from "../../imges/home-h-1-3.jpg";
-
-
-
+import { Link } from 'react-router-dom';
 
 const HouesPropertie = (house) => {
     return (
         <div className='HouesPropertie'>
 
-            <Carousel className='mb-3'>
+            <Carousel className='mb-3' >
                 <Carousel.Item className='full-item'>
-                    <img src={house.image1} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    <Link to={house.link}>
+                        <img src={house.image1} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    </Link>
                     <Carousel.Caption className='caption'>
                         <h3 className='text-orange'>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className='full-item'>
-                    <img src={house.image2} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    <Link to={house.link}>
+                        <img src={house.image2} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    </Link>
                     <Carousel.Caption className='caption'>
                         <h3 className='text-orange'>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className='full-item'>
-                    <img src={house.image3} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    <Link to={house.link}>
+                        <img src={house.image3} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
+                    </Link>
                     <Carousel.Caption className='caption'>
                         <h3 className='text-orange'>Third slide label</h3>
                         <p>

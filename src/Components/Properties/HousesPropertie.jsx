@@ -45,6 +45,7 @@ const HousesPropertie = () => {
                 <Row className='allign-items-center mx-3 mt-5'>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                            link={"/Pages/HouesDetiles1"}
                             image1={h4P1}
                             image2={h4P2}
                             image3={h4P3}

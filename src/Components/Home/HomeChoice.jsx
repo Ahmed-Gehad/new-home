@@ -41,8 +41,9 @@ const HomeChoice = () => {
                     </Col>
                 </Row>
                 <Row className='allign-items-center mx-3 mt-5'>
-                    <Col lg={4} md={6} sm={12}>
+                    <Col lg={4} md={6} sm={12} >
                         <HouesPropertie
+                            link={"/Pages/HouesDetiles1"}
                             image1={h4P1}
                             image2={h4P2}
                             image3={h4P3}
@@ -59,6 +60,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                       
                             image1={h5P1}
                             image2={h5P2}
                             image3={h5P3}
@@ -75,6 +77,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+
                             image1={h6P1}
                             image2={h6P2}
                             image3={h6P3}
