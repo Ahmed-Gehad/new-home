@@ -14,13 +14,14 @@ import Title from '../Components/HouesDetiles/Title'
 
 
 import Description from '../Components/HouesDetiles/Description'
-import Sidebar from '../Components/HouesDetiles/Sidebar'
+
 import FeaturesTitle from '../Components/HouesDetiles/FeaturesTitle'
 import DetailsFeatures from '../Components/HouesDetiles/DetailsFeatures'
 import UtilityFeatures from '../Components/HouesDetiles/UtilityFeatures'
 import OutdoorFeatures from '../Components/HouesDetiles/OutdoorFeatures'
 import Location from '../Components/HouesDetiles/Location'
 import Nearby from '../Components/HouesDetiles/Nearby'
+import SidebarProperty from '../Components/HouesDetiles/SidebarProperty'
 
 
 
@@ -56,7 +57,7 @@ const HouesDetiles2 = () => {
             <Nearby />
           </Col>
           <Col lg={3}>
-            <Sidebar />
+            <SidebarProperty />
           </Col>
         </Row>
       </Container>

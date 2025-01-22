@@ -117,7 +117,6 @@ ul {
 }
 .HouesPropertie .full-item:hover {
     filter: brightness(1);
-    scale: 1.2;
 }
 .full-item .caption {
     display: none;
@@ -396,3 +395,10 @@ Form {
     transition: all 0.7s ease-in-out;
 }
 /* End Landing  */
+
+/* Start Tips Blog */
+
+.TipsBlog .carousel-indicators{
+    display: none !important;
+}
+/* End Tips Blog */

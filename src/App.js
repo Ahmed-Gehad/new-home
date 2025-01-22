@@ -10,6 +10,7 @@ import PropertiePage from './Pages/PropertiePage';
 import HouesDetiles1 from './Pages/HouesDetiles1';
 import HouesDetiles2 from './Pages/HouesDetiles2';
 import HouesDetiles3 from './Pages/HouesDetiles3';
+import BlogPage from './Pages/BlogPage';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/pages/AboutPage' element={<AboutPage />} />
         <Route path='/pages/ContactPage' element={<ContactPage />} />
         <Route path='/pages/PropertiePage' element={<PropertiePage/>} />
+        <Route path='/pages/BlogPage' element={<BlogPage />} />
         <Route path='/pages/HouesDetiles1' element={<HouesDetiles1/>} />
         <Route path='/pages/HouesDetiles2' element={<HouesDetiles2/>} />
         <Route path='/pages/HouesDetiles3' element={<HouesDetiles3/>} />

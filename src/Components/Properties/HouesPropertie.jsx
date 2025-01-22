@@ -14,30 +14,19 @@ const HouesPropertie = (house) => {
                     <Link to={house.link}>
                         <img src={house.image1} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
                     </Link>
-                    <Carousel.Caption className='caption'>
-                        <h3 className='text-orange'>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    
                 </Carousel.Item>
                 <Carousel.Item className='full-item'>
                     <Link to={house.link}>
                         <img src={house.image2} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
                     </Link>
-                    <Carousel.Caption className='caption'>
-                        <h3 className='text-orange'>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    
                 </Carousel.Item>
                 <Carousel.Item className='full-item'>
                     <Link to={house.link}>
                         <img src={house.image3} alt="imgSlider1" className='w-100 rounded-3' style={{ height: '250px' }} />
                     </Link>
-                    <Carousel.Caption className='caption'>
-                        <h3 className='text-orange'>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
+                    
                 </Carousel.Item>
             </Carousel>
 

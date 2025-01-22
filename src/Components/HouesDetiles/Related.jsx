@@ -1,9 +1,9 @@
 import React from 'react'
 
 import HouesPropertie from '../Properties/HouesPropertie'
-import h5P1 from "../../imges/h-5-1.jpg";
-import h5P2 from "../../imges/h-5-2.jpg";
-import h5P3 from "../../imges/h-5-3.jpg";
+import h4P1 from "../../imges/h-4-1.jpg";
+import h4P2 from "../../imges/h-4-2.jpg";
+import h4P3 from "../../imges/h-4-3.jpg";
 
 const Related = () => {
   return (
@@ -13,18 +13,19 @@ const Related = () => {
                 <p className='text-muted '>Tantas signiferumque eum at, vix an dicant fierent homero dignissim.</p>
             </div>
             <HouesPropertie
-                            image1={h5P1}
-                            image2={h5P2}
-                            image3={h5P3}
-                            type1='Villa'
+                            link={"/Pages/HouesDetiles1"}
+                            image1={h4P1}
+                            image2={h4P2}
+                            image3={h4P3}
+                            type1='Condos'
                             type2='Manhattan'
-                            name='Eclectic House'
+                            name='Cozy Cottage'
                             description='Lorem ipsum dolor sit amet, wisi nemore
                             fastidii at vis, eos equidem admodum'
-                            price='2,500'
-                            size='155'
-                            bedroom='2'
-                            bathroom='2'
+                            price='650,000'
+                            size='240'
+                            bedroom='4'
+                            bathroom='3'
                         />
     </div>
   )

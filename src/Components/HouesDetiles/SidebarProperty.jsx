@@ -5,7 +5,7 @@ import Mortgage from './Mortgage'
 
 import Related from './Related'
 
-const Sidebar = () => {
+const SidebarProperty = () => {
   return (
     <div >
       <AdPerson />
@@ -17,4 +17,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default SidebarProperty
