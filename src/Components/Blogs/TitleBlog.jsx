@@ -2,7 +2,11 @@ import React from 'react'
 
 const TitleBlog = () => {
   return (
-    <h1>Latest news</h1>
+    <div>
+      <h1 className='fw-bold'>Latest news</h1>
+      <div className="line my-4"></div>
+    </div>
+
   )
 }
 

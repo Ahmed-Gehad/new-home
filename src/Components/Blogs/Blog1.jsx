@@ -8,6 +8,7 @@ import Slide1Blog from './Slide1Blog'
 import Top10Blog from './Top10Blog'
 import ModernBlog from './ModernBlog'
 import Slide2Blog from './Slide2Blog'
+import SidebarBlog from './SidebarBlog'
 
 
 const Blog1 = () => {
@@ -25,6 +26,7 @@ const Blog1 = () => {
             <Slide2Blog />
           </Col>
           <Col lg={3}>
+          <SidebarBlog />
           </Col>
         </Row>
       </Container>
