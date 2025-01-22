@@ -44,8 +44,8 @@ const Navv = () => {
                                 <Link to='/Pages/PropertiePage'>
                                     <Button >Property</Button>
                                 </Link>
-                                <Link to='/Pages/FrequentlyPage'>
-                                    <Button >Frequently</Button>
+                                <Link to='/Pages/BlogPage'>
+                                    <Button >Blog</Button>
                                 </Link>
                                  
                             

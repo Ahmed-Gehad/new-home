@@ -2,11 +2,11 @@ import React from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
 
-import houseImge1 from '../imges/h-4-1.jpg'
-import houseImge2 from '../imges/h-4-2.jpg'
-import houseImge3 from '../imges/h-4-3.jpg'
-import houseImge4 from '../imges/h-4-4.jpg'
-import houseImge5 from '../imges/h-4-5.jpg'
+import houseImge1 from '../imges/h-6-1.jpg'
+import houseImge2 from '../imges/h-6-2.jpg'
+import houseImge3 from '../imges/h-6-3.jpg'
+import houseImge4 from '../imges/h-6-4.jpg'
+import houseImge5 from '../imges/h-6-5.jpg'
 
 
 import Landing from '../Components/HouesDetiles/Landing'
@@ -24,7 +24,7 @@ import Nearby from '../Components/HouesDetiles/Nearby'
 
 
 
-const HouesDetiles1 = () => {
+const HouesDetiles3 = () => {
   return (
     <div className='HouesDetiles my-5'>
       <Landing
@@ -36,12 +36,12 @@ const HouesDetiles1 = () => {
       />
 
       <Title
-        sell='Buy'
-        name='Cozy Cottage'
+        sell='For Rent'
+        name='Forest Cabin'
         type='Condos'
-        id='55L886'
-        views='1101'
-        price='19,000'
+        id='55F886'
+        views='736'
+        price='1,200 '
       />
 
       <Container>
@@ -66,4 +66,4 @@ const HouesDetiles1 = () => {
   )
 }
 
-export default HouesDetiles1
+export default HouesDetiles3

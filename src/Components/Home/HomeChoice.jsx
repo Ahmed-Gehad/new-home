@@ -60,7 +60,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
-                       
+                            link={"/Pages/HouesDetiles2"}
                             image1={h5P1}
                             image2={h5P2}
                             image3={h5P3}
@@ -77,7 +77,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
-
+                            link={"/Pages/HouesDetiles3"}
                             image1={h6P1}
                             image2={h6P2}
                             image3={h6P3}
@@ -96,6 +96,7 @@ const HomeChoice = () => {
                 <Row className='allign-items-center mx-3 mt-5'>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles1"}
                             image1={h1P1}
                             image2={h1P2}
                             image3={h1P3}
@@ -112,6 +113,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles2"}
                             image1={h2P1}
                             image2={h2P2}
                             image3={h2P3}
@@ -128,6 +130,7 @@ const HomeChoice = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles3"}
                             image1={h3P1}
                             image2={h3P2}
                             image3={h3P3}
@@ -141,7 +144,7 @@ const HomeChoice = () => {
                             bedroom='2'
                             bathroom='1'
                         />
-                    </Col>  
+                    </Col>
                 </Row>
                 <button className='animation d-flex justify-content-center align-items-center py-2 m-auto  bg-orange border-0 rounded-3 text-white px-3 mb-5' >Browse More Properties</button>
             </Container>

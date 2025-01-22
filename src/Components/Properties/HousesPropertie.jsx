@@ -62,6 +62,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                         link={"/Pages/HouesDetiles2"}
                             image1={h5P1}
                             image2={h5P2}
                             image3={h5P3}
@@ -78,6 +79,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles3"}
                             image1={h6P1}
                             image2={h6P2}
                             image3={h6P3}
@@ -96,6 +98,7 @@ const HousesPropertie = () => {
                 <Row className='allign-items-center mx-3 mt-5'>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles1"}
                             image1={h7P1}
                             image2={h7P2}
                             image3={h7P3}
@@ -112,6 +115,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles2"}
                             image1={h8P1}
                             image2={h8P2}
                             image3={h8P3}
@@ -128,6 +132,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles3"}
                             image1={h3P1}
                             image2={h4P2}
                             image3={h5P3}
@@ -147,6 +152,7 @@ const HousesPropertie = () => {
                 <Row className='allign-items-center mx-3 mt-5'>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles1"}
                             image1={h1P1}
                             image2={h1P2}
                             image3={h1P3}
@@ -163,6 +169,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles2"}
                             image1={h2P1}
                             image2={h2P2}
                             image3={h2P3}
@@ -179,6 +186,7 @@ const HousesPropertie = () => {
                     </Col>
                     <Col lg={4} md={6} sm={12}>
                         <HouesPropertie
+                        link={"/Pages/HouesDetiles3"}
                             image1={h3P1}
                             image2={h3P2}
                             image3={h3P3}
