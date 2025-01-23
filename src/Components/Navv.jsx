@@ -23,43 +23,36 @@ const Navv = () => {
                     <Link to='/'>
                         <img src={logo} alt='logo' className='logo' style={{ width: '100px' }} />
                     </Link>
-
-
                     <Navbar.Toggle aria-controls="basic-navbar-nav  " />
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
                         <Nav className="Nav align-items-center d-flex justify-content-center ms-5 fw-bold">
-
-                        <Link to='/'>
-                                    <Button>Home</Button>
-                                </Link>
-
+                            <Link to='/'>
+                                <Button>Home</Button>
+                            </Link>
                             <Link to='/Pages/AboutPage'>
-                                    <Button>About</Button>
-                                </Link>
-
+                                <Button>About</Button>
+                            </Link>
                             <Link to='/Pages/ContactPage'>
-                                    <Button >Contact</Button>
-                                </Link>
-
-                                <Link to='/Pages/PropertiePage'>
-                                    <Button >Property</Button>
-                                </Link>
-                                <Link to='/Pages/BlogPage'>
-                                    <Button >Blog</Button>
-                                </Link>
-                                 
-                            
+                                <Button >Contact</Button>
+                            </Link>
+                            <Link to='/Pages/PropertiePage'>
+                                <Button >Property</Button>
+                            </Link>
+                            <Link to='/Pages/BlogPage'>
+                                <Button >Blog</Button>
+                            </Link>
                         </Nav>
-
                     </Navbar.Collapse>
                     <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end '>
                         <Nav className="Nav align-items-center ">
-                            <Nav.Link href="#user"><i class="fa-regular fa-user"></i></Nav.Link>
-                            <Nav.Link href="#buy"><i class="fa-solid fa-cart-shopping"></i></Nav.Link>
+                            <Link to='/Pages/LoginPage'>
+                                <Nav.Link href='/Pages/LoginPage'><i class="fa-regular fa-user"></i></Nav.Link>
+                            </Link>
+                            <Link to='/Pages/LoginPage'>
+                                <Nav.Link href="/Pages/CartPage"><i class="fa-solid fa-cart-shopping"></i></Nav.Link>
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
-
-
                 </Container>
             </Navbar>
         </div>

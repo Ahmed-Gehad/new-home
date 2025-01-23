@@ -401,3 +401,23 @@ Form {
     display: none !important;
 }
 /* End Tips Blog */
+
+/* Start Family Blog  */
+.FamilyBlog{
+    overflow: hidden;
+}
+.FamilyBlog img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+/* End Family Blog  */
+
+/* Start Tit leLog  */
+.TitleLog{
+    background: url(imges/Dashbord.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+
+/* End Tit leLog  */

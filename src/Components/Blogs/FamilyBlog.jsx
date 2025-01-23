@@ -1,11 +1,11 @@
 import React from 'react'
 
-import familyBlogImage from '../../imges/MissionImg.jpg'
+import familyBlogImage from '../../imges/main-blog.jpg'
 
-export const FamilyBlog = () => {
+export const FamilyBlog = (blog) => {
   return (
-    <div>
-        <img src={familyBlogImage} alt="" className='w-100 rounded-4 mt-3' />
+    <div className='FamilyBlog'>
+        <img src={blog.image} alt="" className='w-100 rounded-4 mt-3' />
         <div className='d-flex my-2'>
             <a href="" className='me-2 '>Interior Design</a>
             - By  

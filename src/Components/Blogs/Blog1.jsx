@@ -11,6 +11,10 @@ import Slide2Blog from './Slide2Blog'
 import SidebarBlog from './SidebarBlog'
 
 
+
+import familyBlogImage from '../../imges/main-blog.jpg'
+
+
 const Blog1 = () => {
   return (
     <div>
@@ -18,7 +22,9 @@ const Blog1 = () => {
         <TitleBlog />
         <Row>
           <Col lg={9}>
-            <FamilyBlog />
+            <FamilyBlog 
+            image={familyBlogImage}
+            />
             <TipsBlog />
             <Slide1Blog />
             <Top10Blog />
