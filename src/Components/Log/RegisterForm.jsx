@@ -31,7 +31,7 @@ const RegisterForm = () => {
           <div className='d-flex text-center justify-content-center mt-3 ' >
             <p className='mx-2'>Have an account?</p>
             <Link to='/Pages/LoginPage'>
-              <a href="" className='mb-5'>Register here</a>
+              <a href="" className='mb-5'>Log In</a>
             </Link>
 
           </div>
